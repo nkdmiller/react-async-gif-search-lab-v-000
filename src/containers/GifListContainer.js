@@ -5,3 +5,11 @@ import GifSearch from "../components/GifSearch";
   state = {
     gifs: []
   };
+
+  render() {
+    return (
+      <div>
+        <GifSearch />
+        <GifList gifs = {this.state.gifs}/>
+    )
+  }
