@@ -22,3 +22,4 @@ import React, { Component } from "react";
       </form>
     )
   }
+export default GifSearch
