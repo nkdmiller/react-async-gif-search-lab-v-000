@@ -9,7 +9,7 @@ import GifSearch from "../components/GifSearch";
   render() {
     return (
       <div>
-        <GifSearch />
+        <GifSearch fetchGifs = {this.fetchGifs} />
         <GifList gifs = {this.state.gifs}/>
       </div>
     );
@@ -24,3 +24,4 @@ import GifSearch from "../components/GifSearch";
       })
     })
   }
+export default GifListContainer
