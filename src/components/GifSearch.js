@@ -19,6 +19,6 @@ import React, { Component } from "react";
           value={this.state.query}
           onSubmit={this.handleSubmit}
         />
-      </form>      
+      </form>
     )
   }
