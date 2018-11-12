@@ -6,7 +6,7 @@ import React, { Component } from "react";
        <div>
           <ul>
             for each (gif in this.props.gifs) {
-              return(<li><image src=gif></image></li>)
+              <li><image src=gif></image></li>
             })
           </ul>
        </div>
