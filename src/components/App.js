@@ -1,8 +1,8 @@
 import React from 'react'
-
+import GifList from 'react'
 import NavBar from './NavBar'
 
-// the App component should render out the GifListContainer component 
+// the App component should render out the GifListContainer component
 
 function App() {
   return (
