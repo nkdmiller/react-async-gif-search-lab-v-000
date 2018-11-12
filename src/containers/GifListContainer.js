@@ -16,5 +16,11 @@ import GifSearch from "../components/GifSearch";
   }
 
   fetchGifs = (query) => {
-    fetch()
+    fetch(`https://api.giphy.com/v1/gifs/search?q=${query}&api_key=dc6zaTOxFJmzC&rating=g&limit=3`)
+    .then(result => result.json())
+    .then(data => {
+      this.setState({
+        gifs: data.map(datum => datum.images.original.url)
+      })
+    })
   }
