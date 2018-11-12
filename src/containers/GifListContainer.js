@@ -11,5 +11,10 @@ import GifSearch from "../components/GifSearch";
       <div>
         <GifSearch />
         <GifList gifs = {this.state.gifs}/>
-    )
+      </div>
+    );
+  }
+
+  fetchGifs = (query) => {
+    fetch()
   }
